@@ -1,15 +1,15 @@
 export function Contacts() {
   const dataContacts = [
     {
-      id: 1,
+      id: 12,
       name: "Rofiq",
     },
     {
-      id: 2,
+      id: 9,
       name: "Jeffry",
     },
     {
-      id: 3,
+      id: 10,
       name: "Bernhard",
     },
   ];
