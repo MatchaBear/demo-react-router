@@ -16,20 +16,21 @@ export function HeaderNavigation() {
 export function Navigation() {
   return (
     <nav className='border-b-2'>
-      <ul className='flex gap-2'></ul>
-      <li>
-        <Link to='/'>Home</Link>
+      <ul className='flex gap-2'>
 
-      </li>
-      <li>
-        <Link to='/contacts'>Contacts</Link>
-      </li>
-      <li>
+        <li>
+          <Link to='/'>Home</Link>
+        </li>
+      
+        <li>
+          <Link to='/contacts'>Contacts</Link>
+        </li>
+      
+        <li>
+          <Link to='/add'>Add</Link>
+        </li>
 
-        <Link to='/add'>Add</Link>
-      </li>
-
-
+      </ul>
     </nav>
   );
 }
