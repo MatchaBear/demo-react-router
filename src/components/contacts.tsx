@@ -16,10 +16,9 @@ export function Contacts() {
 
   return (
     <ul>
-      {dataContacts.map((contact) => {
-        return;
-        <li key={contact.id}>{contact.name}</li>;
-      })}
+      {dataContacts.map((contact) => (
+        <li key={contact.id}>{contact.name}</li>
+      ))}
     </ul>
   );
 }
