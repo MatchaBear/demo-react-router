@@ -1,5 +1,5 @@
 import axios from "axios";
 
-const DATABASE_URL = import.meta.env.DATABASE_URL;
+const BASE_API_URL = import.meta.env.VITE_BASE_API_URL;
 
-export const axiosInstance = axios.create({baseURL: DATABASE_URL });
+export const axiosInstance = axios.create({ baseURL: BASE_API_URL });
